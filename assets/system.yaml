@@ -1,0 +1,734 @@
+patchlines:
+  BR:
+    discoverous_service_location: lolriot.mia1.br1
+    league_edge_url: https://br-red.lol.sgp.pvp.net
+    patcher:
+      patchline: br
+    public: true
+    redge_urls:
+      loadouts: https://br-red.lol.sgp.pvp.net
+      login-queue: https://usw2-green.pp.sgp.pvp.net
+      match-history-query: https://usw2-green.pp.sgp.pvp.net
+      services: https://br-red.lol.sgp.pvp.net
+      session-external: https://usw2-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: BR1
+    service_status_deployment: br1
+    service_status_patchline: live
+  EUNE:
+    discoverous_service_location: lolriot.euc1.eun1
+    league_edge_url: https://eune-red.lol.sgp.pvp.net
+    patcher:
+      patchline: eune
+    public: true
+    redge_urls:
+      loadouts: https://eune-red.lol.sgp.pvp.net
+      login-queue: https://euc1-green.pp.sgp.pvp.net
+      match-history-query: https://euc1-green.pp.sgp.pvp.net
+      services: https://eune-red.lol.sgp.pvp.net
+      session-external: https://euc1-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: EUN1
+    service_status_deployment: eun1
+    service_status_patchline: live
+  EUW:
+    discoverous_service_location: lolriot.ams1.euw1
+    league_edge_url: https://euw-red.lol.sgp.pvp.net
+    patcher:
+      patchline: euw
+    public: true
+    redge_urls:
+      loadouts: https://euw-red.lol.sgp.pvp.net
+      login-queue: https://euc1-green.pp.sgp.pvp.net
+      match-history-query: https://euc1-green.pp.sgp.pvp.net
+      services: https://euw-red.lol.sgp.pvp.net
+      session-external: https://euc1-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: EUW1
+    service_status_deployment: euw1
+    service_status_patchline: live
+  JP:
+    discoverous_service_location: lolriot.aws-apne1-prod.jp1
+    league_edge_url: https://jp-red.lol.sgp.pvp.net
+    patcher:
+      patchline: jp
+    public: true
+    redge_urls:
+      loadouts: https://jp-red.lol.sgp.pvp.net
+      login-queue: https://apne1-green.pp.sgp.pvp.net
+      match-history-query: https://apne1-green.pp.sgp.pvp.net
+      services: https://jp-red.lol.sgp.pvp.net
+      session-external: https://apne1-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: JP1
+    service_status_deployment: jp1
+    service_status_patchline: live
+  KR:
+    discoverous_service_location: lolriot.icn1.kr
+    league_edge_url: https://kr-red.lol.sgp.pvp.net
+    patcher:
+      patchline: kr
+    public: true
+    redge_urls:
+      loadouts: https://kr-red.lol.sgp.pvp.net
+      login-queue: https://apne1-green.pp.sgp.pvp.net
+      match-history-query: https://apne1-green.pp.sgp.pvp.net
+      services: https://kr-red.lol.sgp.pvp.net
+      session-external: https://apne1-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: KR
+    service_status_deployment: kr1
+    service_status_patchline: live
+  LA1:
+    discoverous_service_location: lolriot.mia1.la1
+    league_edge_url: https://lan-red.lol.sgp.pvp.net
+    patcher:
+      patchline: la1
+    public: true
+    redge_urls:
+      loadouts: https://lan-red.lol.sgp.pvp.net
+      login-queue: https://usw2-green.pp.sgp.pvp.net
+      match-history-query: https://usw2-green.pp.sgp.pvp.net
+      services: https://lan-red.lol.sgp.pvp.net
+      session-external: https://usw2-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: LA1
+    service_status_deployment: la1
+    service_status_patchline: live
+  LA2:
+    discoverous_service_location: lolriot.mia1.la2
+    league_edge_url: https://las-red.lol.sgp.pvp.net
+    patcher:
+      patchline: la2
+    public: true
+    redge_urls:
+      loadouts: https://las-red.lol.sgp.pvp.net
+      login-queue: https://usw2-green.pp.sgp.pvp.net
+      match-history-query: https://usw2-green.pp.sgp.pvp.net
+      services: https://las-red.lol.sgp.pvp.net
+      session-external: https://usw2-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: LA2
+    service_status_deployment: la2
+    service_status_patchline: live
+  NA:
+    discoverous_service_location: lolriot.pdx2.na1
+    league_edge_url: https://na-red.lol.sgp.pvp.net
+    patcher:
+      patchline: na
+    public: true
+    redge_urls:
+      loadouts: https://na-red.lol.sgp.pvp.net
+      login-queue: https://usw2-green.pp.sgp.pvp.net
+      match-history-query: https://usw2-green.pp.sgp.pvp.net
+      services: https://na-red.lol.sgp.pvp.net
+      session-external: https://usw2-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: NA1
+    service_status_deployment: na1
+    service_status_patchline: live
+  OC1:
+    discoverous_service_location: lolriot.pdx1.oc1
+    league_edge_url: https://oce-red.lol.sgp.pvp.net
+    patcher:
+      patchline: oc1
+    public: true
+    redge_urls:
+      loadouts: https://oce-red.lol.sgp.pvp.net
+      login-queue: https://usw2-green.pp.sgp.pvp.net
+      match-history-query: https://usw2-green.pp.sgp.pvp.net
+      services: https://oce-red.lol.sgp.pvp.net
+      session-external: https://usw2-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: OC1
+    service_status_deployment: oc1
+    service_status_patchline: live
+  PH2:
+    discoverous_service_location: lolriot.aws-apse1-prod.ph2
+    league_edge_url: https://ph2-red.lol.sgp.pvp.net
+    patcher:
+      patchline: ph2
+    public: true
+    redge_urls:
+      loadouts: https://ph2-red.lol.sgp.pvp.net
+      login-queue: https://apse1-green.pp.sgp.pvp.net
+      match-history-query: https://apse1-green.pp.sgp.pvp.net
+      services: https://ph2-red.lol.sgp.pvp.net
+      session-external: https://apse1-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: PH2
+    service_status_deployment: ph2
+    service_status_patchline: live
+  RU:
+    discoverous_service_location: lolriot.euc1.ru
+    league_edge_url: https://ru-red.lol.sgp.pvp.net
+    patcher:
+      patchline: ru
+    public: true
+    redge_urls:
+      loadouts: https://ru-red.lol.sgp.pvp.net
+      login-queue: https://euc1-green.pp.sgp.pvp.net
+      match-history-query: https://euc1-green.pp.sgp.pvp.net
+      services: https://ru-red.lol.sgp.pvp.net
+      session-external: https://euc1-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: RU
+    service_status_deployment: ru1
+    service_status_patchline: live
+  SG2:
+    discoverous_service_location: lolriot.aws-apse1-prod.sg2
+    league_edge_url: https://sg2-red.lol.sgp.pvp.net
+    patcher:
+      patchline: sg2
+    public: true
+    redge_urls:
+      loadouts: https://sg2-red.lol.sgp.pvp.net
+      login-queue: https://apse1-green.pp.sgp.pvp.net
+      match-history-query: https://apse1-green.pp.sgp.pvp.net
+      services: https://sg2-red.lol.sgp.pvp.net
+      session-external: https://apse1-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: SG2
+    service_status_deployment: sg2
+    service_status_patchline: live
+  TH2:
+    discoverous_service_location: lolriot.aws-apse1-prod.th2
+    league_edge_url: https://th2-red.lol.sgp.pvp.net
+    patcher:
+      patchline: th2
+    public: true
+    redge_urls:
+      loadouts: https://th2-red.lol.sgp.pvp.net
+      login-queue: https://apse1-green.pp.sgp.pvp.net
+      match-history-query: https://apse1-green.pp.sgp.pvp.net
+      services: https://th2-red.lol.sgp.pvp.net
+      session-external: https://apse1-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: TH2
+    service_status_deployment: th2
+    service_status_patchline: live
+  TR:
+    discoverous_service_location: lolriot.euc1.tr1
+    league_edge_url: https://tr-red.lol.sgp.pvp.net
+    patcher:
+      patchline: tr
+    public: true
+    redge_urls:
+      loadouts: https://tr-red.lol.sgp.pvp.net
+      login-queue: https://euc1-green.pp.sgp.pvp.net
+      match-history-query: https://euc1-green.pp.sgp.pvp.net
+      services: https://tr-red.lol.sgp.pvp.net
+      session-external: https://euc1-green.pp.sgp.pvp.net
+    rso_client: tftm
+    rso_environment: production
+    rso_region: TR1
+    service_status_deployment: tr1
+    service_status_patchline: live
+sdk:
+  default_region: BR
+  enable_patching: true
+  enable_platform_login: false
+  enable_riot_login: false
+  patchline_id: live
+  performance:
+    gather-system-info: false
+  product_id: lol
+  publisher: riot
+  region_data:
+    BR:
+      available_locales:
+      - vi_VN
+      default_locale: pt_BR
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: BR1
+      servers:
+        account_recovery:
+          forgot_password_url: https://recovery.riotgames.com/{{lang}}/forgot-password?region={{region}}
+          forgot_username_url: https://recovery.riotgames.com/{{lang}}/forgot-username?region={{region}}
+        chat:
+          allow_self_signed_cert: false
+          chat_host: br.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://br-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://us.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/br/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#br
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    EUNE:
+      available_locales:
+      - vi_VN
+      default_locale: en_GB
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: EUN1
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: eun1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://eune-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://eu.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/eune/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#eune
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    EUW:
+      available_locales:
+      - vi_VN
+      default_locale: en_GB
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: EUW1
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: euw1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://euw-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://eu.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/euw/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#euw
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    JP:
+      available_locales:
+      - vi_VN
+      default_locale: ja_JP
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: JP1
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: jp1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://jp-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://asia.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/jp/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#jp
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    KR:
+      available_locales:
+      - vi_VN
+      - ko_KR
+      default_locale: ko_KR
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: KR
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: kr1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://kr-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://asia.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/kr/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#kr
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    LA1:
+      available_locales:
+      - vi_VN
+      default_locale: es_MX
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: LA1
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: la1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://lan-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://us.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/lan/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#lan
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    LA2:
+      available_locales:
+      - vi_VN
+      - es_MX
+      default_locale: es_MX
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: LA2
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: la2.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://las-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://us.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/las/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#las
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    NA:
+      available_locales:
+      - vi_VN
+      default_locale: en_US
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: NA1
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: na2.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://na-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://us.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/na/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#na
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    OC1:
+      available_locales:
+      - vi_VN
+      default_locale: en_AU
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: OC1
+      servers:
+        chat:
+          chat_host: oc1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://oce-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://us.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/oce/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#oce
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    PH2:
+      available_locales:
+      - vi_VN
+      default_locale: en_PH
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: PH2
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: sa1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://ph2-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://asia.edge.rms.si.riotgames.com
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/ph2/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#ph2
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    RU:
+      available_locales:
+      - vi_VN
+      default_locale: ru_RU
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: RU
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: ru1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://ru-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://eu.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/ru/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#ru
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    SG2:
+      available_locales:
+      - vi_VN
+      default_locale: en_SG
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: SG2
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: sa1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://sg2-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://asia.edge.rms.si.riotgames.com
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/sg2/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#sg2
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    TH2:
+      available_locales:
+      - vi_VN
+      - th_TH
+      default_locale: th_TH
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: TH2
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: sa1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://th2-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://asia.edge.rms.si.riotgames.com
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/th2/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#th2
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+    TR:
+      available_locales:
+      - vi_VN
+      default_locale: tr_TR
+      enable_patching: true
+      rso:
+        client: tftm
+        url: https://auth.riotgames.com
+      rso_environment: production
+      rso_platform_id: TR1
+      servers:
+        chat:
+          allow_self_signed_cert: false
+          chat_host: tr1.chat.si.riotgames.com
+          chat_port: 5223
+        client_config:
+          client_config_url: https://clientconfig.rpg.riotgames.com
+        entitlements:
+          entitlements_url: https://entitlements.auth.riotgames.com/api/token/v1
+        league_edge:
+          league_edge_url: https://tr-red.lol.sgp.pvp.net
+        player_preferences:
+          player_preferences_url: https://playerpreferences.riotgames.com
+        rms:
+          rms_heartbeat_interval_seconds: 60
+          rms_url: wss://eu.edge.rms.si.riotgames.com:443
+        service_status:
+          api_url: https://status.leagueoflegends.com/shards/tr/synopsis
+          human_readable_status_url: https://status.leagueoflegends.com/#tr
+        telemetry:
+          analytics_collector_url: https://data.riotgames.com
+          dradis_collector_url: https://ekg.riotgames.com/messages
+          log_collector_url: ''
+          scope: globalriot.pdx2.rnet-live1.riotclient.foundation
+  rso-mobile-ui:
+    stay-signed-in: true
+  tftm_force_remember_me: true
