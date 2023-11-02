@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.riotgames.league.teamfighttactics" platformBuildVersionCode="34" platformBuildVersionName="14">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="com.riotgames.league.teamfighttactics.pbe.vn" platformBuildVersionCode="23" platformBuildVersionName="14">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="BIND_GET_INSTALL_REFERRER_SERVICE"/>
@@ -18,8 +18,8 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
-    <permission android:name="com.riotgames.league.teamfighttactics.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.riotgames.league.teamfighttactics.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="com.riotgames.league.teamfighttactics.pbe.vn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.riotgames.league.teamfighttactics.pbe.vn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <uses-permission android:name="com.android.vending.BILLING"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
@@ -52,14 +52,14 @@
             <meta-data android:name="network.enabled" android:value="false"/>
             <meta-data android:name="battery.enabled" android:value="false"/>
         </service>
-        <provider android:authorities="com.riotgames.league.teamfighttactics.provider.logs" android:enabled="true" android:exported="true" android:grantUriPermissions="true" android:name="com.riotgames.leagueoflegends.provider.RiotLogDocumentsProvider" android:permission="android.permission.MANAGE_DOCUMENTS">
+        <provider android:authorities="com.riotgames.league.teamfighttactics.pbe.vn.provider.logs" android:enabled="true" android:exported="true" android:grantUriPermissions="true" android:name="com.riotgames.leagueoflegends.provider.RiotLogDocumentsProvider" android:permission="android.permission.MANAGE_DOCUMENTS">
             <intent-filter>
                 <action android:name="android.content.action.DOCUMENTS_PROVIDER"/>
             </intent-filter>
         </provider>
         <meta-data android:name="io.sentry.traces.user-interaction.enable" android:value="true"/>
         <meta-data android:name="io.sentry.auto-init" android:value="false"/>
-        <provider android:authorities="com.riotgames.league.teamfighttactics.FacebookInitProvider" android:enabled="false" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <provider android:authorities="com.riotgames.league.teamfighttactics.pbe.vn.FacebookInitProvider" android:enabled="false" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
         <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="true" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
@@ -74,7 +74,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:host="cct.com.riotgames.league.teamfighttactics" android:scheme="fbconnect"/>
+                <data android:host="cct.com.riotgames.league.teamfighttactics.pbe.vn" android:scheme="fbconnect"/>
             </intent-filter>
         </activity>
         <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
@@ -84,7 +84,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="com.riotgames.league.teamfighttactics"/>
+                <data android:scheme="com.riotgames.league.teamfighttactics.pbe.vn"/>
             </intent-filter>
         </activity>
         <service android:exported="false" android:name="com.riotgames.leagueoflegends.service.TFTFirebaseMessagingService">
@@ -111,10 +111,10 @@
         </service>
         <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
-        <provider android:authorities="com.riotgames.league.teamfighttactics.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.riotgames.league.teamfighttactics.pbe.vn.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
-        <provider android:authorities="com.riotgames.league.teamfighttactics.SentryInitProvider" android:exported="false" android:name="io.sentry.android.core.SentryInitProvider"/>
-        <provider android:authorities="com.riotgames.league.teamfighttactics.SentryPerformanceProvider" android:exported="false" android:initOrder="200" android:name="io.sentry.android.core.SentryPerformanceProvider"/>
+        <provider android:authorities="com.riotgames.league.teamfighttactics.pbe.vn.SentryInitProvider" android:exported="false" android:name="io.sentry.android.core.SentryInitProvider"/>
+        <provider android:authorities="com.riotgames.league.teamfighttactics.pbe.vn.SentryPerformanceProvider" android:exported="false" android:initOrder="200" android:name="io.sentry.android.core.SentryPerformanceProvider"/>
         <uses-library android:name="androidx.window.extensions" android:required="false"/>
         <uses-library android:name="androidx.window.sidecar" android:required="false"/>
         <meta-data android:name="com.google.android.play.billingclient.version" android:value="6.0.1"/>
@@ -124,7 +124,7 @@
         </service>
         <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
-        <provider android:authorities="com.riotgames.league.teamfighttactics.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <provider android:authorities="com.riotgames.league.teamfighttactics.pbe.vn.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
         <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
             <intent-filter>
                 <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>

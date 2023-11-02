@@ -1,0 +1,7 @@
+name: Singular-v12.1.4-b10a2556.master
+env: release
+git_commit: b10a2556
+git_branch: master
+version_name: 12.1.4
+version_code:1
+build_date: Wed, 26 Jul 2023 13:56:51 +0300
